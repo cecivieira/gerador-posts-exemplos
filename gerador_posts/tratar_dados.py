@@ -18,9 +18,3 @@ class TratarDados:
         if yaml_arquivo:
           with open(self.yaml_path, 'w') as arquivo:
             yaml.safe_dump(yaml_arquivo, arquivo)
-
-
-if __name__ == "__main__":
-    dados = TratarDados()
-    dicionario = dados.converteCsvEmDicionario()
-    atualiza_yaml = dados.insereDicionarioNoYaml(dicionario)
