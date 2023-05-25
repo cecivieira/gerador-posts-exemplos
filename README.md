@@ -12,12 +12,12 @@ Essa aplicação surgiu da necessidade de gerar textos a partir de um template, 
 ## Uso
 
 1. Crie os dados:
-    1. Crie a pasta './dados';
-    1. Dentro dessa pasta, crie dois arquivos de dados: 'links.csv' e 'variaveis.yaml' (os arquivos devem ter exatamente esses títulos)
+    1. Crie a pasta `./dados`;
+    1. Dentro dessa pasta, crie dois arquivos de dados: `links.csv` e `variaveis.yaml` (os arquivos devem ter exatamente esses títulos).
 1. Crie os templates:
-    1. Crie a pasta './posts_templates';
-    1. Dentro dessa pasta você pode criar quantos templates desejar, em qualquer formato de arquivo. (para inserir dados no template use a sintaxe do Jinja2)
-1. Crie a pasta aonde os posts prontos serão armazenados: './posts_prontos'
+    1. Crie a pasta `./posts_templates`;
+    1. Dentro dessa pasta você pode criar quantos templates desejar, em qualquer formato de arquivo. (para inserir dados no template use a sintaxe do Jinja2).
+1. Crie a pasta aonde os posts prontos serão armazenados: `./posts_prontos`;
 1. Execute o pacote:
     ```bash
     (.venv) $ pip install gerador_posts
