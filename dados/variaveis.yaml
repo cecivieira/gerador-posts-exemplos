@@ -1,8 +1,23 @@
-descricao: 
-entrevistadas: #insira uma lista onde os dados da convidada X esteja todos no mesmo índice
-  nomes: 
-  twitter-handles:
-  linkedin-handles:
-  instagram-handles:
+descricao: "Testando descri\xE7\xE3o"
+entrevistadas:
+  instagram_handle: null
+  linkedin_handle:
+  - cecivieira
+  - nisia
+  nomes:
+  - "Ana Cec\xEDlia"
+  - "N\xEDsia"
   sites:
-topicos: 
+  - cecivieira.com
+  - nisia.com
+  twitter_handle:
+  - cecivieira
+episodio_anterior_id: episodio-036
+pizzaiolas:
+- Leticia Portella
+- "Ana Cec\xEDlia Vieira"
+topicos:
+- topico1teste
+- topico2
+- eitaaaaaa---funcionou carai
+youtube_id: kziZ_X3ccxk
