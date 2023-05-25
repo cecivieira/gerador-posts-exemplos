@@ -1,0 +1,89 @@
+<p style="text-align: left; font-family: verdana, geneva; font-size: 13pt;">{{ descricao }}</p>
+
+<p style="text-align: left; font-family: verdana, geneva; font-size: 13pt;">--------</p>
+
+<h2 style="text-align: left; margin-left: 25px; font-size: 18pt;">Apoie o pizza:</h2>
+<p style="text-align: left; font-family: verdana, geneva; font-size: 13pt;">Se você ou sua empresa deseja apadrinhar
+    episódios do Pizza e contribuir com a disseminação do conteúdo de ciência de dados em português, <u><a
+            href="mailto:pizzadedados@gmail.com">manda um e-mail pra gente</a></u>.</p>
+
+<p style="text-align: left; font-family: verdana, geneva; font-size: 13pt;">--------</p>
+
+<h2 style="text-align: left; margin-left: 25px; font-size: 18pt;"><strong>Tópicos desse episódio:</strong></h2>
+<ul style="line-height: 1.5; text-align: left; font-family: verdana, geneva; font-size: 13pt;">
+    <li style="line-height: 1.5; text-align: left; font-family: verdana, geneva; font-size: 13pt;">Quem é e o que faz a
+        nossa convidada?</li>
+    
+    {% for item in topicos %}
+    <li style="line-height: 1.5; text-align: left; font-family: verdana, geneva; font-size: 13pt;">{{ item }}</li>
+    {% endfor %}
+    
+    <li style="line-height: 1.5; text-align: left; font-family: verdana, geneva; font-size: 13pt;">Muitas indicações de
+        conteúdo para não ficar de fora da conversa</li>
+</ul>
+<br />
+<h2 style="text-align: left; margin-left: 25px; font-size: 18pt;">Participantes:</h2>
+<ul style="line-height: 1.5; text-align: left; font-family: verdana, geneva; font-size: 13pt;">
+    {% for indice in range(len({{ entrevistadas.nomes }}) + 1) %}
+    <li style="line-height: 1.5; text-align: left; font-family: verdana, geneva; font-size: 13pt;">{{ entrevistadas.nomes[indice] }}
+        <ul style="line-height: 1.5; text-align: left; font-family: verdana, geneva; font-size: 13pt;">
+            <!-- INSERIR IF -->
+            <li style="line-height: 1.5; text-align: left; font-family: verdana, geneva; font-size: 13pt;"><u><a
+                        href="https://twitter.com/{{ entrevistadas.twitter-handles[indice] }}">Twitter</a></u></li>
+            <!-- INSERIR IF -->
+            <li style="line-height: 1.5; text-align: left; font-family: verdana, geneva; font-size: 13pt;"><u><a
+                        href="https://www.linkedin.com/in/{{ entrevistadas.linkedin-handles[indice] }}">LinkedIn</a></u></li>
+            <!-- INSERIR IF -->
+            <li style="line-height: 1.5; text-align: left; font-family: verdana, geneva; font-size: 13pt;"><u><a
+                        href="https://www.instagram.com/{{ entrevistadas.instagram-handles[indice] }}">Instagram</a></u></li>
+            <!-- INSERIR IF -->
+            <li style="line-height: 1.5; text-align: left; font-family: verdana, geneva; font-size: 13pt;"><u><a
+                        href="{{ entrevistadas.sites[indice] }}">Site</a></u></li>
+        </ul>
+    </li>
+    {% endfor %}
+    <!-- <li style="line-height: 1.5; text-align: left; font-family: verdana, geneva; font-size: 13pt;">Jessica Temporal
+        <ul style="line-height: 1.5; text-align: left; font-family: verdana, geneva; font-size: 13pt;">
+            <li style="line-height: 1.5; text-align: left; font-family: verdana, geneva; font-size: 13pt;"><u><a
+                        href="https://twitter.com/jesstemporal">Twitter</a></u></li>
+        </ul>
+    </li>
+    <li style="line-height: 1.5; text-align: left; font-family: verdana, geneva; font-size: 13pt;">Leticia Portella
+        <ul style="line-height: 1.5; text-align: left; font-family: verdana, geneva; font-size: 13pt;">
+            <li style="line-height: 1.5; text-align: left; font-family: verdana, geneva; font-size: 13pt;"><u><a
+                        href="https://twitter.com/leleportella">Twitter</a></u></li>
+        </ul>
+    </li>
+    <li style="line-height: 1.5; text-align: left; font-family: verdana, geneva; font-size: 13pt;">Ana Cecília Vieira
+        <ul style="line-height: 1.5; text-align: left; font-family: verdana, geneva; font-size: 13pt;">
+            <li style="line-height: 1.5; text-align: left; font-family: verdana, geneva; font-size: 13pt;"><u><a
+                        href="https://twitter.com/cecivieira">Twitter</a></u></li>
+        </ul>
+    </li>
+</ul>
+<h2 style="text-align: left; margin-left: 25px; font-size: 18pt;"><strong>Escute agora:</strong></h2>
+<p style="text-align: left; font-family: verdana, geneva; font-size: 13pt;"><iframe allowfullscreen="allowfullscreen"
+        src="https://www.youtube.com/embed/kziZ_X3ccxk" width="100%" height="315"></iframe></p>
+<h2 style="text-align: left; margin-left: 25px; font-size: 18pt;">Links:</h2>
+<h3 style="text-align: left; margin-left: 25px; font-size: 16pt;">Recadinhos</h3>
+<ul style="line-height: 1.5; text-align: left; font-family: verdana, geneva; font-size: 13pt;">
+    <li style="line-height: 1.5; text-align: left; font-family: verdana, geneva; font-size: 13pt;"><u><a
+                href="https://podcast.pizzadedados.com/e/episodio-036/">Episódio Anterior do Pizza</a></u></li>
+    ...INSIRA OS LINKS DOS RECADINHOS AQUI…
+</ul>
+<h3 style="text-align: left; margin-left: 25px; font-size: 16pt;">Menções durante o epis&oacute;dio</h3>
+<ul style="line-height: 1.5; text-align: left; font-family: verdana, geneva; font-size: 13pt;">
+    <li style="line-height: 1.5; text-align: left; font-family: verdana, geneva; font-size: 13pt;"><u><a
+                href="xxxxxx">MODELO LINK</a></u></li>
+    ...INSIRA OS LINKS DOS RECADINHOS AQUI…
+</ul>
+<p style="text-align: left; font-family: verdana, geneva; font-size: 13pt;">--------</p>
+<h2 style="text-align: left; margin-left: 25px; font-size: 18pt;">Créditos:</h2>
+<h3 style="text-align: left; margin-left: 25px; font-size: 16pt;">Edi&ccedil;&atilde;o</h3>
+<p style="text-align: left; font-family: verdana, geneva; font-size: 13pt;">Esse epis&oacute;dio foi editado pela <u><a
+            href="mailto:jessicacorrea@outlook.com">Jessica Correa</a></u>. Valeu Jessica!</p>
+<h3 style="text-align: left; margin-left: 25px; font-size: 16pt;">Produção</h3>
+<p style="text-align: left; font-family: verdana, geneva; font-size: 13pt;">Esse epis&oacute;dio foi produzido com a
+    colaboração de <u><a href="https://twitter.com/cecivieira">Ana Cecília Vieira</a></u>.</p>
+<p style="text-align: left; font-family: verdana, geneva; font-size: 13pt;">--------</p>
+<h2 style="text-align: left; margin-left: 25px; font-size: 18pt;">Escute:</h2> -->
