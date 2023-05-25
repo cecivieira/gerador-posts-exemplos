@@ -7,11 +7,17 @@ class TratarDados:
         self.yaml_path = 'dados/variaveis.yaml'
     
     def converteCsvEmDicionario(self):
+        '''
+        Converte dados do csv em um dicionário.
+        '''
         with open(self.csv_path, 'r') as arquivo:
             csv2dicionario = [item for item in csv.DictReader(arquivo)]
         return csv2dicionario
 
     def insereDicionarioNoYaml(self, lista_dicionarios):
+        '''
+        Salva dicionário em arquivo .yaml 
+        '''
         with open(self.yaml_path, 'r') as arquivo:
           yaml_arquivo = yaml.safe_load(arquivo)
           yaml_arquivo['links'] = lista_dicionarios
