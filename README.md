@@ -1,24 +1,30 @@
-# Gerador de posts
-Gerador de posts baseado em templates e dados armazenados em arquivo csv.
+# Gerador de posts - Exemplos
+Esse repositório é destinado a armazenar exemplos do funcionamento do pacote [gerador-posts](https://pypi.org/project/gerador-posts/). Você também pode usá-lo para praticar a geração de novos textos.
 
-Essa aplicação surgiu da necessidade de gerar textos a partir de um template, cujos dados deveriam ser coletados de um arquivo .csv e .yaml. Então, é isso que esse programa faz: ler dados de um arquivo .csv, outros dados de um arquivo .yaml e preenche um ou mais templates.
+O repositório da aplicação está disponibilizado [aqui](https://github.com/cecivieira/gerador-posts).
 
-## Instalação
+## Conteúdo
 
-```bash
-(.venv) $ pip install gerador_posts
-```
+Aqui, cada pasta corresponde a um projeto diferente, então dentro delas tem os arquivos de dados utilizados, os templates e posts prontos.
 
-## Uso
+## Como usar a aplicação
 
-1. Crie os dados:
+Para criar os seus textos, siga os passos abaixo: 
+
+1. Crie um ambiente virtual;
+1. Instale o pacote:
+    ```bash
+    pip install gerador-posts
+    ```
+1. Crie os arquivos de dados:
     1. Crie a pasta `./dados`;
     1. Dentro dessa pasta, crie dois arquivos de dados: `links.csv` e `variaveis.yaml` (os arquivos devem ter exatamente esses títulos).
-1. Crie os templates:
+1. Escreva os templates:
     1. Crie a pasta `./posts_templates`;
-    1. Dentro dessa pasta você pode criar quantos templates desejar, em qualquer formato de arquivo. (para inserir dados no template use a sintaxe do Jinja2).
+    1. Dentro dessa pasta você pode criar quantos templates desejar, em qualquer formato de arquivo. (para inserir os dados no template use a sintaxe do Jinja2).
 1. Crie a pasta aonde os posts prontos serão armazenados: `./posts_prontos`;
 1. Execute o pacote:
     ```bash
-    (.venv) $ pip install gerador_posts
+    (.venv) $ gerar-posts
     ```
+1. Feito! Seus posts estão prontos e armazenados na pasta `./posts_prontos`.

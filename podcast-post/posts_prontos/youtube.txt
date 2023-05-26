@@ -1,0 +1,39 @@
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+
+Streams de áudio: https://pod.link/pizzadedados 
+Facebook : http://fb.com/pizzadedados 
+Twitter: https://twitter.com/pizzadedados/
+Instagram: https://www.instagram.com/pizzadedados/ 
+
+# Apoie o pizza:
+
+Se você ou sua empresa deseja apadrinhar episódios do Pizza e contribuir com a disseminação do conteúdo de ciência de dados em português, manda um e-mail pra gente (pizzadedados@gmail.com).
+
+# Participantes: 
+
+- Gabriela:
+    Twitter: https://twitter.com/##45a
+    Instagram: https://www.instagram.com/##45a
+    cecivieira.com
+- Josefa:
+    Twitter: https://twitter.com/jstafe#$
+    LinkedIn: https://www.linkedin.com/in/jstafe#$
+    Instagram: https://www.instagram.com/jstafe#$
+
+ 
+- Jessica Temporal: https://twitter.com/jesstemporal 
+- Leticia Portella: https://twitter.com/leleportella
+- Ana Cecília Vieira: https://twitter.com/cecivieira
+
+-------- 
+# Menções durante o episódio (links): 
+
+Pandas: https://pandas.pydata.org/
+Livro: https://www.amazon.com.br/Leticia-Portella/e/B0BKLNSRM3%3Fref=dbs_a_mng_rwt_scns_share
+Pythorch: https://pytorch.org/
+Scikit-learn: https://scikit-learn.org/
+
+-------- 
+# Créditos:
+
+Edição: Jessica Correa (jessicacorrea@outlook.com)
